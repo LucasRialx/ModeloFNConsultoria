@@ -431,7 +431,8 @@ form button:hover {
   }
 
   .logo {
-    margin-bottom: 10px; /* Espaço abaixo da logo */
+    display: block; /* Torna a logo um bloco */
+    margin: 10px auto; /* Espaço acima e abaixo, centralizando horizontalmente */
     width: 80%; /* Limita a largura da logo para responsividade */
     max-width: 300px; /* Largura máxima para a logo */
   }
