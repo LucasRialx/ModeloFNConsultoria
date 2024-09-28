@@ -404,11 +404,13 @@ form button:hover {
 
 @media (max-width: 768px) {
   
-  body::before {
-    background-image: url('imagens/containerI-mobile.jpg'); /* Imagem específica para mobile */
-    background-attachment: scroll; /* Remove o efeito de fixação */
+  body {
+    background-image: url('imagens/containerI.jpg'); /* Imagem específica para mobile */ 
+    background-size: contain; /* Ajusta a imagem para caber dentro do container */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita repetição da imagem */
+    background-attachment: scroll; /* Permite que a imagem se mova com o conteúdo */
   }
-  
   .hero {
     padding: 50px 20px; /* Ajusta o padding para a seção hero */
     text-align: center; /* Centraliza o texto */
