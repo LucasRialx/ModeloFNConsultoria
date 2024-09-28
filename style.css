@@ -404,6 +404,28 @@ form button:hover {
 }
 
 @media (max-width: 768px) {
+
+    body::before {
+    background-image: url('imagens/containerI-mobile.jpg'); /* Imagem otimizada para mobile */
+    background-size: contain; /* Ajusta o tamanho da imagem para caber na tela */
+    background-attachment: scroll; /* Muda para scroll para evitar problemas em mobile */
+    background-position: center; /* Centraliza a imagem */
+    opacity: 0.87; /* Mantém a mesma opacidade */
+  }
+
+  .hero {
+    padding: 50px 20px; /* Ajusta o padding para a seção hero */
+    text-align: center; /* Centraliza o texto */
+  }
+
+  .hero h1 {
+    font-size: 28px; /* Tamanho da fonte reduzido */
+  }
+
+  .hero p {
+    font-size: 16px; /* Tamanho da fonte reduzido */
+  }
+
   header {
     flex-direction: column; /* Muda para coluna */
     align-items: center; /* Centraliza os itens do cabeçalho */
@@ -427,19 +449,6 @@ form button:hover {
   nav li {
     margin: 10px 0; /* Ajusta a margem dos itens do menu */
     font-size: 18px; /* Tamanho de fonte para legibilidade */
-  }
-
-  .hero {
-    padding: 50px 20px; /* Ajusta o padding para a seção hero */
-    text-align: center; /* Centraliza o texto */
-  }
-
-  .hero h1 {
-    font-size: 28px; /* Tamanho da fonte reduzido */
-  }
-
-  .hero p {
-    font-size: 16px; /* Tamanho da fonte reduzido */
   }
 
   .valores .grid {
