@@ -405,10 +405,9 @@ form button:hover {
 
 @media (max-width: 768px) {
   
-  body {
+  body::before {
     background-image: url('imagens/containerI-mobile.jpg'); /* Imagem específica para mobile */
-    background-size: cover; /* Preenche a tela */
-    background-position: center; /* Centraliza a imagem */
+    background-attachment: scroll; /* Remove o efeito de fixação */
   }
   
   .hero {
