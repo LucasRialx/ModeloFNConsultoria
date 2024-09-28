@@ -406,10 +406,10 @@ form button:hover {
   
   body {
     background-image: url('imagens/containerI.jpg'); /* Imagem específica para mobile */ 
-    background-size: contain; /* Ajusta a imagem para caber dentro do container */
+    background-size: coverr; /* Ajusta a imagem para caber dentro do container */
     background-position: center; /* Centraliza a imagem */
-    background-repeat: no-repeat; /* Evita repetição da imagem */
-    background-attachment: scroll; /* Permite que a imagem se mova com o conteúdo */
+    background-repeat: repeat; /* Evita repetição da imagem */
+    background-attachment: fixed; /* Permite que a imagem se mova com o conteúdo */
   }
   .hero {
     padding: 50px 20px; /* Ajusta o padding para a seção hero */
