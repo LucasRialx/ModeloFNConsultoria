@@ -412,12 +412,12 @@ form button:hover {
     left: 0;
     right: 0;
     bottom: 0;
-    background-image: url('imagens/containerI.jpg'); /* Caminho para sua imagem */
-    background-size: contain; /* Ajusta a imagem para caber dentro do container */
-    background-position: center; /* Centraliza a imagem */
-    background-repeat: no-repeat; /* Não repete a imagem */
+    background-image: url('imagens/containerI.jpg'); 
+    background-size: cover; /* ou 'contain' se preferir */
+    background-position: center;
+    background-repeat: repeat; /* Faz a imagem repetir se necessário */
     opacity: 0.87;
-    z-index: -1;
+    z-index: -1; 
   }
 
   .hero {
