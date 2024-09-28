@@ -437,18 +437,19 @@ form button:hover {
     padding: 20px; /* Adiciona padding */
   }
 
-  .sobre {
-    padding: 20px; /* Adiciona padding à seção sobre */
-  }
-
   .sobre .grid {
     grid-template-columns: 1fr; /* Muda para uma coluna em vez de várias */
-    text-align: center; /* Centraliza o texto */
+    padding: 20px; /* Adiciona espaçamento interno */
   }
 
-  .sobre .grid .coluna {
-    margin-bottom: 20px; /* Adiciona espaço entre as colunas */
-    padding: 10px; /* Adiciona padding interno */
+  .sobre h2 {
+    font-size: 24px; /* Ajusta o tamanho do título para mobile */
+    text-align: center; /* Centraliza o título */
+  }
+
+  .sobre p {
+    font-size: 16px; /* Ajusta o tamanho do texto para mobile */
+    text-align: center; /* Centraliza o texto */
   }
 
   .contato form {
