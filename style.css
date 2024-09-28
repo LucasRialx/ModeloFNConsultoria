@@ -433,12 +433,12 @@ form button:hover {
   .logo {
     display: block; /* Torna a logo um bloco */
     margin: 10px auto; /* Espaço acima e abaixo, centralizando horizontalmente */
-    width: 80%; /* Limita a largura da logo para responsividade */
-    max-width: 300px; /* Largura máxima para a logo */
+    max-width: 80%; /* Ajuste para manter a logo dentro do limite */
+    height: auto; /* Mantém a proporção da imagem */
   }
 
   nav {
-    display: none; /* Esconde o menu de navegação */
+    display: none; /* Esconde a navegação no mobile */
   }
   
   .valores .grid {
