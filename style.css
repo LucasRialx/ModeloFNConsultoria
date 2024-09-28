@@ -436,19 +436,10 @@ form button:hover {
     max-width: 300px; /* Largura máxima para a logo */
   }
 
-  nav ul {
-    flex-direction: column; /* Muda a direção do menu para coluna */
-    align-items: center; /* Centraliza os itens do menu */
-    padding: 0; /* Remove padding */
-    margin: 0; /* Remove margin */
-    list-style: none; /* Remove marcadores */
+  nav {
+    display: none; /* Esconde o menu de navegação */
   }
-
-  nav li {
-    margin: 10px 0; /* Ajusta a margem dos itens do menu */
-    font-size: 18px; /* Tamanho de fonte para legibilidade */
-  }
-
+  
   .valores .grid {
     grid-template-columns: 1fr; /* Muda para uma coluna em vez de várias */
     padding: 20px; /* Adiciona padding */
