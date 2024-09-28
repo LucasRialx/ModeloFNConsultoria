@@ -392,3 +392,60 @@ form button:hover {
 #status {
   color: white;
 }
+
+/* Estilos para dispositivos móveis */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column; /* Muda para coluna */
+    height: auto; /* Ajusta a altura do cabeçalho */
+  }
+
+  .logo {
+    left: 50%; /* Centraliza a logo horizontalmente */
+    top: 20px; /* Margem superior */
+    transform: translateX(-50%); /* Centraliza a logo */
+  }
+
+  nav ul {
+    flex-direction: column; /* Muda a direção do menu para coluna */
+    align-items: center; /* Centraliza os itens do menu */
+  }
+
+  nav li {
+    margin: 10px 0; /* Ajusta a margem dos itens do menu */
+  }
+
+  .hero {
+    padding: 50px 20px; /* Ajusta o padding para a seção hero */
+  }
+
+  .hero h1 {
+    font-size: 32px; /* Reduz o tamanho da fonte */
+  }
+
+  .hero p {
+    font-size: 16px; /* Reduz o tamanho da fonte */
+  }
+
+  .valores .grid {
+    grid-template-columns: 1fr; /* Muda para uma coluna em vez de várias */
+  }
+
+  .sobre .grid {
+    grid-template-columns: 1fr; /* Muda para uma coluna em vez de várias */
+  }
+
+  .contato form {
+    display: flex; /* Usar flexbox para o formulário */
+    flex-direction: column; /* Muda a direção para coluna */
+  }
+
+  .contato label {
+    margin-top: 10px; /* Adiciona espaço entre os labels */
+  }
+
+  .footer .grid {
+    flex-direction: column; /* Muda para coluna */
+    align-items: center; /* Centraliza os itens do rodapé */
+  }
+}
