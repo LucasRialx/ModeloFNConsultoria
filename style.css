@@ -411,6 +411,7 @@ form button:hover {
     background-repeat: repeat; /* Evita repetição da imagem */
     background-attachment: fixed; /* Permite que a imagem se mova com o conteúdo */
   }
+  
   .hero {
     padding: 50px 20px; /* Ajusta o padding para a seção hero */
     text-align: center; /* Centraliza o texto */
@@ -418,12 +419,13 @@ form button:hover {
 
   .hero h1 {
     font-size: 28px; /* Tamanho da fonte reduzido */
+    color: #333; /* Nova cor para o texto do título */
   }
 
   .hero p {
     font-size: 16px; /* Tamanho da fonte reduzido */
   }
-
+  
   header {
     flex-direction: column; /* Muda para coluna */
     align-items: center; /* Centraliza os itens do cabeçalho */
@@ -469,6 +471,10 @@ form button:hover {
   .sobre .coluna {
     margin: 10px 0; /* Espaçamento vertical entre as colunas */
     width: 100%; /* Cada coluna ocupa toda a largura disponível */
+  }
+  
+  .sobre .esquerda {
+    font-size: 24px; /* Tamanho de letra menor para a primeira coluna */
   }
   
   .contato form {
