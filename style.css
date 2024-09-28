@@ -396,14 +396,14 @@ form button:hover {
 @media (max-width: 768px) {
   header {
     flex-direction: column; /* Muda para coluna */
-    height: auto; /* Ajusta a altura do cabeçalho */
-    padding: 10px; /* Adiciona padding para espaçamento */
+    align-items: center; /* Centraliza os itens do cabeçalho */
+    padding: 10px; /* Adiciona padding */
   }
 
   .logo {
-    left: 50%; /* Centraliza a logo horizontalmente */
-    top: 20px; /* Margem superior */
-    transform: translateX(-50%); /* Centraliza a logo */
+    margin-bottom: 10px; /* Espaço abaixo da logo */
+    width: 80%; /* Limita a largura da logo para responsividade */
+    max-width: 300px; /* Largura máxima para a logo */
   }
 
   nav ul {
@@ -416,42 +416,50 @@ form button:hover {
 
   nav li {
     margin: 10px 0; /* Ajusta a margem dos itens do menu */
+    font-size: 18px; /* Tamanho de fonte para legibilidade */
   }
 
   .hero {
     padding: 50px 20px; /* Ajusta o padding para a seção hero */
+    text-align: center; /* Centraliza o texto */
   }
 
   .hero h1 {
-    font-size: 32px; /* Reduz o tamanho da fonte */
-    text-align: center; /* Centraliza o texto */
+    font-size: 28px; /* Tamanho da fonte reduzido */
   }
 
   .hero p {
-    font-size: 16px; /* Reduz o tamanho da fonte */
-    text-align: center; /* Centraliza o texto */
+    font-size: 16px; /* Tamanho da fonte reduzido */
   }
 
   .valores .grid {
     grid-template-columns: 1fr; /* Muda para uma coluna em vez de várias */
+    padding: 20px; /* Adiciona padding */
+  }
+
+  .sobre {
+    padding: 20px; /* Adiciona padding à seção sobre */
   }
 
   .sobre .grid {
     grid-template-columns: 1fr; /* Muda para uma coluna em vez de várias */
-    padding: 20px; /* Adiciona padding para a seção sobre */
+    text-align: center; /* Centraliza o texto */
   }
 
   .sobre .grid .coluna {
     margin-bottom: 20px; /* Adiciona espaço entre as colunas */
+    padding: 10px; /* Adiciona padding interno */
   }
 
   .contato form {
     display: flex; /* Usar flexbox para o formulário */
     flex-direction: column; /* Muda a direção para coluna */
+    align-items: center; /* Centraliza o formulário */
   }
 
   .contato label {
     margin-top: 10px; /* Adiciona espaço entre os labels */
+    text-align: center; /* Centraliza o texto dos labels */
   }
 
   .footer .grid {
