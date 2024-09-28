@@ -405,12 +405,10 @@ form button:hover {
 
 @media (max-width: 768px) {
   
-    body::before {
-    background-image: url('imagens/containerI.jpg'); /* Reafirma a imagem de fundo */
-    background-size: contain; /* Ajusta a imagem para caber na área */
+  body {
+    background-image: url('imagens/containerI-mobile.jpg'); /* Imagem específica para mobile */
+    background-size: cover; /* Preenche a tela */
     background-position: center; /* Centraliza a imagem */
-    background-repeat: no-repeat; /* Evita a repetição da imagem */
-    opacity: 0.8; /* Ajuste a opacidade se necessário */
   }
   
   .hero {
