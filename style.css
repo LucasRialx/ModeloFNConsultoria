@@ -393,6 +393,16 @@ form button:hover {
   color: white;
 }
 
+.sobre .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sobre .coluna {
+  flex: 1; /* Cada coluna ocupa o mesmo espaço */
+  margin: 0 10px; /* Espaçamento entre as colunas */
+}
+
 @media (max-width: 768px) {
   header {
     flex-direction: column; /* Muda para coluna */
@@ -452,6 +462,16 @@ form button:hover {
     text-align: center; /* Centraliza o texto */
   }
 
+  .sobre .container {
+    flex-direction: column; /* Empilha as colunas em uma única coluna */
+    align-items: center; /* Centraliza as colunas */
+  }
+
+  .sobre .coluna {
+    margin: 10px 0; /* Espaçamento vertical entre as colunas */
+    width: 100%; /* Cada coluna ocupa toda a largura disponível */
+  }
+  
   .contato form {
     display: flex; /* Usar flexbox para o formulário */
     flex-direction: column; /* Muda a direção para coluna */
