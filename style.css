@@ -405,19 +405,12 @@ form button:hover {
 
 @media (max-width: 768px) {
   
-  body::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-image: url('imagens/containerI.jpg'); 
-    background-size: cover; /* ou 'contain' se preferir */
-    background-position: center;
-    background-repeat: repeat; /* Faz a imagem repetir se necessário */
-    opacity: 0.87;
-    z-index: -1; 
+    body::before {
+    background-image: url('imagens/containerI.jpg'); /* Reafirma a imagem de fundo */
+    background-size: contain; /* Ajusta a imagem para caber na área */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita a repetição da imagem */
+    opacity: 0.8; /* Ajuste a opacidade se necessário */
   }
   
   .hero {
