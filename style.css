@@ -393,11 +393,11 @@ form button:hover {
   color: white;
 }
 
-/* Estilos para dispositivos móveis */
 @media (max-width: 768px) {
   header {
     flex-direction: column; /* Muda para coluna */
     height: auto; /* Ajusta a altura do cabeçalho */
+    padding: 10px; /* Adiciona padding para espaçamento */
   }
 
   .logo {
@@ -409,6 +409,9 @@ form button:hover {
   nav ul {
     flex-direction: column; /* Muda a direção do menu para coluna */
     align-items: center; /* Centraliza os itens do menu */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+    list-style: none; /* Remove marcadores */
   }
 
   nav li {
@@ -421,10 +424,12 @@ form button:hover {
 
   .hero h1 {
     font-size: 32px; /* Reduz o tamanho da fonte */
+    text-align: center; /* Centraliza o texto */
   }
 
   .hero p {
     font-size: 16px; /* Reduz o tamanho da fonte */
+    text-align: center; /* Centraliza o texto */
   }
 
   .valores .grid {
@@ -433,6 +438,11 @@ form button:hover {
 
   .sobre .grid {
     grid-template-columns: 1fr; /* Muda para uma coluna em vez de várias */
+    padding: 20px; /* Adiciona padding para a seção sobre */
+  }
+
+  .sobre .grid .coluna {
+    margin-bottom: 20px; /* Adiciona espaço entre as colunas */
   }
 
   .contato form {
